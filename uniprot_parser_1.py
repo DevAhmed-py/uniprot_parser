@@ -16,6 +16,7 @@ Optional arguments are:
     --help - display this help page
     --go   - show a protein id to GO id mapping
     --doi  - show a protein id to DOI mapping (not used today)
+
 Mandatory arguments are:
     FILE - one or more compressed or uncompressed Uniprot data files \n
           """)
