@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 ### Author: Ahmed Tijani Akinfalabi
-### Date: 2024-02-02
+### Date: 2024-02-03
 ### Name: UniProt-Parser 
 ### Description: Parser 2
 
