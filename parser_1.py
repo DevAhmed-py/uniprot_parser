@@ -3,7 +3,6 @@
 ### Author: Ahmed Tijani Akinfalabi
 ### Date: 2024-02-03
 ### Name: UniProt-Parser 
-### Description: Parser 2
 
 """Uniprot-Parser by Ahmed Tijani Akinfalabi, 2024
 Extract information from Uniprot data files.
