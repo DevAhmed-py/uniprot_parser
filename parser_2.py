@@ -9,7 +9,8 @@ Extract information from Uniprot data files.
 Optional arguments are:
     --help - display this help page
     --go   - show a protein id to GO id mapping
-    --doi  - show a protein id to DOI mapping (not used today)
+    --doi  - show a protein id to DOI mapping
+    --kegg - show a protein id to KEGG mapping
 
 Mandatory arguments are:
     FILE - one or more compressed or uncompressed Uniprot data files \n
@@ -66,9 +67,6 @@ class UniProtGui(GuiBaseClass):
 
 
         # create a frame and place both the text and scrol bar and then put it on the paned window.
-
-        # If i use your scrolled module, then i put the frame, and then text widget into the frame. and then i called scrolled to the text widget.
-        # The outer frame must be added to the paned window
         
         # scrollbar_text = tk.Scrollbar(frame, command = self.text.yview)
         # scrollbar_text.pack(side = "left", fill = "y")

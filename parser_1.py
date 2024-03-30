@@ -10,7 +10,8 @@ Extract information from Uniprot data files.
 Optional arguments are:
     --help - display this help page
     --go   - show a protein id to GO id mapping
-    --doi  - show a protein id to DOI mapping (not used today)
+    --doi  - show a protein id to DOI mapping
+    --kegg - show a protein id to KEGG mapping
 
 Mandatory arguments are:
     FILE - one or more compressed or uncompressed Uniprot data files \n
@@ -23,7 +24,7 @@ class UniProtParse:
         self.entries = []
 
     def help(self, argv):
-        print(f"\nUsage: {argv[0]} --help|--go|--doi [FILE] ?[FILE] ...?")
+        print(f"\nUsage: {argv[0]} --help|--go|--doi|--kegg [FILE] ?[FILE] ...?")
         print(__doc__)
 
     def check_file(self, argv):
